@@ -1,0 +1,38 @@
+body {
+	font-family: arial,sans;
+	font-size: 12pt;
+	color: #000000;
+}
+
+p, ul, li, td
+{
+	font-family: arial,sans;
+	font-size: 12pt;
+	color: #000000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.admin_block {color:#A0A0A0;font-size:18px;}
+.admin_block p{color:#A0A0A0;font-size:18px;}
+.admin_block a{color:#2020A0;font-size:18px;text-decoration:underline;}
+.admin_block a:hover{color:#808080;font-size:18px;text-decoration:underline;}
+
+#smenus {float: left; width: 140px;margin: 2px;font-family: arial;font-size: 14px;color: #ffffff;}
+#smenus dl.smenu1 {float: left;width: 140px;position: absolute;cursor: pointer;text-align: left;
+	display: none;border: none;padding: 0;list-style-type: none;z-index:150;}
+#smenus li {text-align: left;font-size: 14px;color: #ffffff;margin: 5px 10px 5px 10px;padding: 0;list-style-type: none;}
+#smenus li a, #smenus dt a {color: #000;text-decoration: none;display: block;height: 100%;border: 0 none;font-family: arial;font-size: 14px;
+	color: #ffffff;margin: 0;padding: 0;list-style-type: none;}
+#smenus li a:hover, #smenus dt a:hover {background: #002246}
+#smenus dt, #smenus dd, #smenus ul {margin: 0;padding: 0;list-style-type: none;}
+
+#smenus dl.smenu1b {float: left;position: absolute;cursor: pointer;background: #002246;
+	display: none;border: 1px solid gray;list-style-type: none;z-index:120;opacity: .9;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+	border-radius: 10px;}
+
+.background{background: url(/lcr/images/backgroundimage.png) top no-repeat,
+url(/lcr/images/background.jpg) repeat-x;}
