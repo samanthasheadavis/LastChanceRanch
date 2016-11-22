@@ -171,3 +171,7 @@ href="/lcr/contact.ashx"><img id="btn_contact" border=0 width="77" height="41"  
 </div>
 </BODY>
 </HTML>
+
+<!-- rollingbanner.js:32 Uncaught TypeError: Cannot read property 'top' of null; jQuery GET method errors in console.log -->
+
+<!--Needs a community feed like feature of happy tales for our animals-->
