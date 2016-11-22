@@ -311,3 +311,5 @@ function validateamt() {
 </div>
 </BODY>
 </HTML>
+
+<!-- rollingbanner.js:32 Uncaught TypeError: Cannot read property 'top' of null; jQuery GET method errors in console.log -->
